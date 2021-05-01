@@ -24,11 +24,11 @@
 
 <!-- input for race time -->
 <div class="input-field">
-    <input placeholder="hour(24 hour format)" id="hour" type="number"/>
+    <input placeholder="Hour (24 hour format)" id="hours" type="number"/>
     <span>:</span>
-    <input placeholder="minute" id="minute" type="number"/>
+    <input placeholder="Minutes" id="minutes" type="number"/>
     <span>,</span>
-    <input placeholder="day" id="day" type="number"/>
+    <input placeholder="Day" id="days" type="number"/>
     <button onclick="timeCalculator()">Submit</button>
 </div>
 
@@ -39,7 +39,8 @@
     <p>Results</p>
      <br>
      <br>
-     <h4 id="result">Your minutes to arrive were: </h4>
+     <h4>The minutes you took to arrive were:</h4>
+     <h3 id="result"></h3>
 </div>
 
 </body>
