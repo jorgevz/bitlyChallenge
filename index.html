@@ -18,12 +18,13 @@
 <br>
 <br>
 
-<div>
-   <span>Race Time Arrival</span>
-</div>
 
 <!-- input for race time -->
 <div class="input-field">
+    <h4 class="results-section">You have left Rhode
+        Island on your boat on 01-01-2021 08:00 AM. Please enter your arrival
+    date below. </h4>
+    <span>Race Time Arrival: </span>
     <input type="datetime-local" value="() => moment().toDate()" id="arrival"/>
     <button id="myBtn"> Submit </button>
 </div>
@@ -31,7 +32,11 @@
 <hr>
 
 <!-- results section -->
-<div id="result"></div>
+<div class="results-section">
+    <h3>The following result are your minutes taken to arrive to the finish line
+        based on your arrival date:</h3>
+    <h4 id="result"></h4>
+</div>
 
 </body>
 
