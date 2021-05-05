@@ -41,7 +41,7 @@ line-height: 16px;
 cursor: pointer;
 }
 
-.results{
+#result{
 color: rgb(29, 31, 33);
 font-family: 'Noto Sans KR', sans-serif;
 font-size: 18px;

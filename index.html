@@ -24,28 +24,19 @@
 
 <!-- input for race time -->
 <div class="input-field">
-    <input placeholder="Hour (24 hour format)" id="hours" type="number"/>
-    <span>:</span>
-    <input placeholder="Minutes" id="minutes" type="number"/>
-    <span>,</span>
-    <input placeholder="Day" id="days" type="number"/>
-    <button onclick="timeCalculator()">Submit</button>
+    <input type="datetime-local" value="() => moment().toDate()" id="arrival"/>
+    <button id="myBtn"> Submit </button>
 </div>
 
 <hr>
 
 <!-- results section -->
-<div class="results">
-    <p>Results</p>
-     <br>
-     <br>
-     <h4>The minutes you took to arrive were:</h4>
-     <h3 id="result"></h3>
-</div>
+<div id="result"></div>
 
 </body>
 
 <footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
     <script src="main.js"></script>
 </footer>
 
