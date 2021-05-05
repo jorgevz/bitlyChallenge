@@ -41,11 +41,11 @@ line-height: 16px;
 cursor: pointer;
 }
 
-#result{
+.results-section{
 color: rgb(29, 31, 33);
 font-family: 'Noto Sans KR', sans-serif;
 font-size: 18px;
-font-weight: bolder;
 height: 22px;
-width: 60px;
+width: 100%;
+text-align: center;
 }
